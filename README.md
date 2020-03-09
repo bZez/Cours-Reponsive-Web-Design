@@ -6,3 +6,4 @@ Support de cours WebForce3 - Responsive Web Design
 ![Capture](screenshot-2.png)
 
 #Objectif
+![Capture](screenshot-3.png)
