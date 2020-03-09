@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <!-- LA BALISE META LA PLUS IMPORTANTE QUAND ON PARLE DE RESPONSIVE DESIGN -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Responsive Web Design - Bootstrap</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Start Bootstrap</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto text-center">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h1 class="mt-5">Le "Grid System"</h1>
+        <p class="lead">Bootstrap utilise le système de grille HTML pour faciliter la mise en page, voici quelques exemples...</p>
+        <!--        <ul class="list-unstyled">
+                  <li>Bootstrap 4.3.1</li>
+                  <li>jQuery 3.4.1</li>
+                </ul>-->
+      </div>
+    </div>
+  </div>
+
+  <div class="container bg-warning rounded">
+    <h3>Les blocs <small class="blockquote-footer">La base du grid sytem</small></h3>
+    <div class="row">
+      <div class="col-4 p-3">
+        <div class="col-12 bg-light p-5">
+          <h3>Bloc N°1</h3>
+          <p>.col-4</p>
+        </div>
+      </div>
+      <div class="col-4 p-3">
+        <div class="col-12 bg-light p-5">
+          <h3>Bloc N°2</h3>
+          <p>.col-4</p>
+        </div>
+      </div>
+      <div class="col-4 p-3">
+        <div class="col-12 bg-light p-5">
+          <h3>Bloc N°3</h3>
+          <p>.col-4</p>
+        </div>
+      </div>
+    </div>
+    <h3>Changer la taille des blocs en fonction du viewport <small class="blockquote-footer">(Aperçu: Ctrl + Shit + M)</small></h3>
+    <div class="row">
+      <div class="col-6 col-md-4 p-3">
+        <div class="col-12 bg-light p-5">
+          <h3>Bloc N°1</h3>
+          <p>.col-6 .col-md-4</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 p-3">
+        <div class="col-12 bg-light p-5">
+          <h3>Bloc N°2</h3>
+          <p>.col-6 .col-md-4</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 p-3">
+        <div class="col-12 bg-light p-5">
+          <h3>Bloc N°3</h3>
+          <p>.col-12 .col-md-4</p>
+        </div>
+      </div>
+    </div>
+    <h3>Inverser l'ordre <small class="blockquote-footer">(Aperçu: Ctrl + Shit + M)</small></h3>
+    <div class="row">
+      <div class="col-12 col-md-4 p-3 order-3">
+        <div class="col-12 bg-light p-5">
+          <h3>Bloc N°1</h3>
+          <p>.col-12 .col-md-4</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 p-3 order-2">
+        <div class="col-12 bg-light p-5">
+          <h3>Bloc N°2</h3>
+          <p>.col-12 .col-md-4</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 p-3 order-1">
+        <div class="col-12 bg-light p-5">
+          <h3>Bloc N°3</h3>
+          <p>.col-12 .col-md-4</p>
+        </div>
+      </div>
+    </div>
+    <h3>Changer l'alignement du texte selon la taille du viewport <small class="blockquote-footer">(Aperçu: Ctrl + Shit + M)</small></h3>
+    <div class="row">
+      <div class="col-12 col-md-4 p-3">
+        <div class="col-12 bg-light p-5 text-center text-md-left">
+          <h3>Bloc N°1</h3>
+          <p>Texte aligné au centre sur les petits écrans et aligné a gauche sur les écrans plus grand.</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 p-3">
+        <div class="col-12 bg-light p-5 text-center">
+          <h3>Bloc N°2</h3>
+          <p>Texte aligné au centre sur tout les écrans peut importe la taille et le contenu .</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 p-3">
+        <div class="col-12 bg-light p-5 text-center text-md-right">
+          <h3>Bloc N°3</h3>
+          <p>Texte aligné au centre sur les petits écrans et aligné a droite sur les écrans plus grand.</p>
+        </div>
+      </div>
+    </div>
+    <h3>Afficher/Cacher un bloc en fonction du viewport <small class="blockquote-footer">(Aperçu: Ctrl + Shit + M)</small></h3>
+    <div class="row">
+      <div class="col-12 col-md-4 p-3">
+        <div class="col-12 bg-light p-5">
+          <h3>Bloc N°1</h3>
+          <p>.col-12 .col-md-4</p>
+        </div>
+      </div>
+      <div class="d-none d-md-inline-block col-md-4 p-3">
+        <div class="col-12 bg-danger p-5">
+          <h3>Bloc N°2 <sup class="text-muted h5">Ce bloc va disparaitre</sup></h3>
+          <p>.d-none .d-md-inline-block</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 p-3">
+        <div class="col-12 bg-light p-5">
+          <h3>Bloc N°3</h3>
+          <p>.col-12 .col-md-4</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h1 class="mt-5">Le container-fluid</h1>
+        <p class="lead">Le container-fluid se comporte de la même manière qu'un container mais lui n'a pas de limite de largeur il occupe donc <strong>TOUT</strong> l'espace.</p>
+        <!--        <ul class="list-unstyled">
+                  <li>Bootstrap 4.3.1</li>
+                  <li>jQuery 3.4.1</li>
+                </ul>-->
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid bg-warning">
+    <h3>Les blocs <small class="blockquote-footer">La base du grid sytem</small></h3>
+    <div class="row">
+      <div class="col-4 p-3">
+        <div class="col-12 bg-light p-5">
+          <h3>Bloc N°1</h3>
+          <p>.col-4</p>
+        </div>
+      </div>
+      <div class="col-4 p-3">
+        <div class="col-12 bg-light p-5">
+          <h3>Bloc N°2</h3>
+          <p>.col-4</p>
+        </div>
+      </div>
+      <div class="col-4 p-3">
+        <div class="col-12 bg-light p-5">
+          <h3>Bloc N°3</h3>
+          <p>.col-4</p>
+        </div>
+      </div>
+    </div>
+    <h3>Changer la taille des blocs en fonction du viewport <small class="blockquote-footer">(Aperçu: Ctrl + Shit + M)</small></h3>
+    <div class="row">
+      <div class="col-6 col-md-4 p-3">
+        <div class="col-12 bg-light p-5">
+          <h3>Bloc N°1</h3>
+          <p>.col-6 .col-md-4</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 p-3">
+        <div class="col-12 bg-light p-5">
+          <h3>Bloc N°2</h3>
+          <p>.col-6 .col-md-4</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 p-3">
+        <div class="col-12 bg-light p-5">
+          <h3>Bloc N°3</h3>
+          <p>.col-12 .col-md-4</p>
+        </div>
+      </div>
+    </div>
+    <h3>Inverser l'ordre <small class="blockquote-footer">(Aperçu: Ctrl + Shit + M)</small></h3>
+    <div class="row">
+      <div class="col-12 col-md-4 p-3 order-3">
+        <div class="col-12 bg-light p-5">
+          <h3>Bloc N°1</h3>
+          <p>.col-12 .col-md-4</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 p-3 order-2">
+        <div class="col-12 bg-light p-5">
+          <h3>Bloc N°2</h3>
+          <p>.col-12 .col-md-4</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 p-3 order-1">
+        <div class="col-12 bg-light p-5">
+          <h3>Bloc N°3</h3>
+          <p>.col-12 .col-md-4</p>
+        </div>
+      </div>
+    </div>
+    <h3>Changer l'alignement du texte selon la taille du viewport <small class="blockquote-footer">(Aperçu: Ctrl + Shit + M)</small></h3>
+    <div class="row">
+      <div class="col-12 col-md-4 p-3">
+        <div class="col-12 bg-light p-5 text-center text-md-left">
+          <h3>Bloc N°1</h3>
+          <p>Texte aligné au centre sur les petits écrans et aligné a gauche sur les écrans plus grand.</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 p-3">
+        <div class="col-12 bg-light p-5 text-center">
+          <h3>Bloc N°2</h3>
+          <p>Texte aligné au centre sur tout les écrans peut importe la taille et le contenu .</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 p-3">
+        <div class="col-12 bg-light p-5 text-center text-md-right">
+          <h3>Bloc N°3</h3>
+          <p>Texte aligné au centre sur les petits écrans et aligné a droite sur les écrans plus grand.</p>
+        </div>
+      </div>
+    </div>
+    <h3>Afficher/Cacher un bloc en fonction du viewport <small class="blockquote-footer">(Aperçu: Ctrl + Shit + M)</small></h3>
+    <div class="row">
+      <div class="col-12 col-md-4 p-3">
+        <div class="col-12 bg-light p-5">
+          <h3>Bloc N°1</h3>
+          <p>.col-12 .col-md-4</p>
+        </div>
+      </div>
+      <div class="d-none d-md-inline-block col-md-4 p-3">
+        <div class="col-12 bg-danger p-5">
+          <h3>Bloc N°2 <sup class="text-muted h5">Ce bloc va disparaitre</sup></h3>
+          <p>.d-none .d-md-inline-block</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 p-3">
+        <div class="col-12 bg-light p-5">
+          <h3>Bloc N°3</h3>
+          <p>.col-12 .col-md-4</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
